@@ -3,8 +3,9 @@ import { ArrowDownCircle } from "react-bootstrap-icons"
 import headshot from "../images/profile-pic.png"
 
 
-function Banner(){
 
+function Banner(){
+    
 
     return(
         <div>
@@ -16,9 +17,9 @@ function Banner(){
                             <h6>Hi, my name is</h6>
                             </span>
                             <h1> Nash Zangio</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <button onClick={() => console.log('connect')}> 
-                            Learn more!<ArrowDownCircle size={25}/></button>
+                            <p>I am front-end web developer with strong design skills and knowledge. Member of the great Ironhack community. My approach to every single project is to carefully plan, research and test the end result. Never missing a chance to learn something and get hold of new technologies.</p>
+                            <button>Learn more!<a href="#skills"><ArrowDownCircle size={25}/></a> 
+                            </button>
                         </Col>
                         <Col xs={10} md={6} xl={5}>
                         <img src={headshot} alt="headshot"/>

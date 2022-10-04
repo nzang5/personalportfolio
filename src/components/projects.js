@@ -32,6 +32,11 @@ function Projects(){
           description: "Not available",
           imgUrl: projImg1,
         },
+        {
+          title: "Not available",
+          description: "Not available",
+          imgUrl: projImg1,
+        },
        
       ];
     return(
@@ -43,7 +48,7 @@ function Projects(){
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Over the past few months, I've completed an immersive full-time Web Development bootcamp at <a href="https://www.ironhack.com/en/web-development" style={{color:"#64ffda"}}>IRONHACK</a>. We learned how to build apps with HTML, CSS, JavaScript, and React. Below are small projects that were design and built within a week each to showcase the technologies we've learned.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                  
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
