@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import ProjectCard from "./projectcard";
-import projImg1 from "../images/dummy.png";
+import projImg1 from "../images/readytowork.png";
+import projImg2 from "../images/vegginers.png";
+
 import TrackVisibility from 'react-on-screen';
 
 
@@ -15,7 +17,7 @@ function Projects(){
         {
           title: "Vegginers",
           description: "Find your favorite vegan recipe!",
-          imgUrl: projImg1,
+          imgUrl: projImg2,
         },
         {
           title: "Not available",
