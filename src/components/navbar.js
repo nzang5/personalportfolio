@@ -4,7 +4,6 @@ import navIcon1 from "../images/nav-icon1.svg";
 import navIcon2 from "../images/nav-icon4.svg";
 import navIcon3 from "../images/nav-icon3.svg";
 import logo from "../images/Z (4).png"
-import pdf from "../images/resumecopy.pdf";
 
 
 
@@ -40,8 +39,8 @@ function NavBar() {
                 <a href="https://www.instagram.com/imsonashty5/"><img src={navIcon3} alt="instagramicon"/></a>
 
             </div>
-            <button className="vvd">
-            <span><a href={pdf} className="resumelink">My Resume</a></span>
+            <button className="vvd" onClick={()=> window.open("https://drive.google.com/file/d/1Y1LG46eGFALMFonrNbC6HxpjyowGHgfX/view?usp=sharing")}>
+            <span>My Resume</span>
             </button>
 
           </span>
