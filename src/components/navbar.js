@@ -39,7 +39,7 @@ function NavBar() {
                 <a href="https://www.instagram.com/imsonashty5/"><img src={navIcon3} alt="instagramicon"/></a>
 
             </div>
-            <button className="vvd" onClick={()=> window.open("https://drive.google.com/file/d/1AkS6KPL_1Ps_zFe7ye_GRC5hV7mBnOMe/view")}>
+            <button className="vvd" onClick={()=> window.open("https://drive.google.com/file/d/1fDLbOJvlHABnTBbQ92kFEVUHVa0xSzGB/view?usp=sharing")}>
             <span>My Resume</span>
             </button>
 
