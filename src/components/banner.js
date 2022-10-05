@@ -17,7 +17,7 @@ function Banner(){
                             <h6>Hi, my name is</h6>
                             </span>
                             <h1> Nash Zangio</h1>
-                            <p>I am front-end web developer with strong design skills and knowledge. Member of the great Ironhack community. My approach to every single project is to carefully plan, research and test the end result. Never missing a chance to learn something and get hold of new technologies.</p>
+                            <p>I am front-end web developer with strong design skills and knowledge. Member of the great Ironhack community. My approach to every single project is to carefully plan, research and test the end result. Never missing a chance to learn something and get hold of new technologies. test</p>
                             <button>Learn more!<a href="#skills"><ArrowDownCircle size={25}/></a> 
                             </button>
                         </Col>
